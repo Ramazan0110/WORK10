@@ -38,7 +38,6 @@ body {
   }
 .text:hover::before{
     content: "  На самом деле нет. \A   Важнее &mdash; научиться ошибаться.";
-    font-size: 1.50rem;
     font-family:"Raleway";
     position: absolute;
     background-color: white;
@@ -48,8 +47,9 @@ body {
     top: 15vw;
     text-align: left;
     border-bottom: 20px solid black;
-    
+    font-size: 2vw;
     opacity: 0.9;
+    padding: 2vw 2.3vw;
 }
 .text:hover{
     color: #4c4c4c;
